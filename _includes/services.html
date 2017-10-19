@@ -1,0 +1,122 @@
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h3>Our services</h3>
+			</div>
+			<div class="agileits-services-grids">
+				<div class="col-md-8 agileits-services-left">
+					<h4>Services Overview</h4>
+					<div class="agileits-services-text">
+						<p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+					</div>
+					<div class="credit-grids">
+						<h5>Credit Cards:</h5>
+						<div class="credit-grid-left">
+							<div class="credit-grid">
+								<img src="{{site.baseurl}}/images/c2.jpg" alt="" />
+								<h6>Visa</h6>
+								<p>Nam libero tempore cum soluta nobis est</p>
+							</div>
+							<div class="credit-grid">
+								<img src="{{site.baseurl}}/images/c3.jpg" alt="" />
+								<h6>MasterCard</h6>
+								<p>Nam libero tempore cum soluta nobis est</p>
+							</div>
+							<div class="credit-grid">
+								<img src="{{site.baseurl}}/images/c4.jpg" alt="" />
+								<h6>MasterCard</h6>
+								<p>Nam libero tempore cum soluta nobis est</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="credit-grids debit-grids">
+						<h5>Debit Cards:</h5>
+						<div class="debit-grids-text">
+							<p>Morbi nec justo ut ex rhoncus luctus. Duis id ex egestas, tempus lorem sed, porta urna. Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac.</p>
+						</div>
+						<div class="w3-services-grids">
+							<div class="col-md-4 w3l-services-grid">
+								<div class="w3ls-services-img">
+									<i class="fa fa-money" aria-hidden="true"></i>
+								</div>
+								<div class="agileits-services-info">
+									<h4>Praesent tempor</h4>
+								</div>
+							</div>
+							<div class="col-md-4 w3l-services-grid">
+								<div class="w3ls-services-img">
+									<i class="fa fa-credit-card" aria-hidden="true"></i>
+								</div>
+								<div class="agileits-services-info">
+									<h4>Praesent tempor</h4>
+								</div>
+							</div>
+							<div class="col-md-4 w3l-services-grid">
+								<div class="w3ls-services-img">
+									<i class="fa fa-line-chart" aria-hidden="true"></i>
+								</div>
+								<div class="agileits-services-info">
+									<h4>Praesent tempor</h4>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 agileits-services-right">
+					<h4>Marketing Services</h4>
+					<div class="services-two-grids">
+						<div class="agileinfo-services-right">
+							<img src="{{site.baseurl}}/images/10.jpg" alt="" />
+							<h6>Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida suscipit</h6>
+						</div>
+						<!-- date -->
+						<div id="design" class="date">
+										<div id="cycler">   
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,</a>
+											</div>
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Cras vestibulum dapibus <span class="blinking"><img src="images/new.png" alt="" /></span></a>
+											</div>
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Fusce id molestie mauris</a>
+											</div>
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Aliquam vulputate arcu enim <span class="blinking"><img src="images/new.png" alt="" /></span></a>
+											</div>
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Donec ac turpis aliquet</a>
+											</div>
+											<div class="date-text">
+												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Morbi nec justo ut ex rhoncus luctus</a>
+											</div>
+										</div>
+										<script>
+										function blinker() {
+											$('.blinking').fadeOut(500);
+											$('.blinking').fadeIn(500);
+										}
+										setInterval(blinker, 1000);
+										</script>
+										<script>
+											function cycle($item, $cycler){
+												setTimeout(cycle, 2000, $item.next(), $cycler);
+												
+												$item.slideUp(1000,function(){
+													$item.appendTo($cycler).show();        
+												});
+												}
+											cycle($('#cycler div:first'),  $('#cycler'));
+										</script>
+						</div>
+						<!-- //date -->
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
