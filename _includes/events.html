@@ -9,7 +9,7 @@
 					{% for event in site.events %}
 					<div class="col-md-4 news-right-grid">
 						<div class="agile-news-info">
-							<img src="{{site.baseurl}}/images/n1.jpg" alt=" " class="img-responsive">
+							<img src="{{ site.baseurl }}{{ event.img }}" alt=" " class="img-responsive">
 							<h4><a href="#" data-toggle="modal" data-target="#myModal">{{ event.title }}</a></h4>
 							<span>{{ event.date | date: "%eth %B" }} | {{ event.start }} - {{ event.end }} </span>
 							<p> {{ event.content }}</p>
@@ -34,7 +34,7 @@
 							<div class="modal-body">
 								<div class="agileits-w3layouts-info">
 									<img src="{{site.baseurl}}/images/g2.jpg" alt="" />
-									<p>{{ event.modal_content }}</p>
+									<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem.</p>
 								</div>
 							</div>
 						</div>
