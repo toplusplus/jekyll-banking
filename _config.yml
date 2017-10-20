@@ -1,3 +1,4 @@
 baseurl: /jekyll-banking
 collections:
   - events
+  - feedback
