@@ -2,43 +2,23 @@
 	<div class="news" id="news">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>News & Events</h3>
+				<h3>Events</h3>
 			</div>
 			<div class="w3ls-news-grids">
 				<div class="news-right">
+					{% for event in site.events %}
 					<div class="col-md-4 news-right-grid">
 						<div class="agile-news-info">
 							<img src="{{site.baseurl}}/images/n1.jpg" alt=" " class="img-responsive">
-							<h4><a href="#" data-toggle="modal" data-target="#myModal">Sunt in culpa qui officia velit</a></h4>
-							<span>19th June | 10:00 - 12:00</span>
-							<p> Integer interdum eros vitae sem ultrices, sed eleifend tellus tincidunt. Nam nisl arcu, porttitor sit amet</p>
+							<h4><a href="#" data-toggle="modal" data-target="#myModal">{{ event.title }}</a></h4>
+							<span>{{ event.date | date: "%eth %B" }} | {{ event.start }} - {{ event.end }} </span>
+							<p> {{ event.content }}</p>
 							<div class="agileinfo-news-button">
 								<a href="#" class="hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal">More</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 news-right-grid">
-						<div class="agile-news-info">
-							<img src="{{site.baseurl}}/images/n2.jpg" alt=" " class="img-responsive">
-							<h4><a href="#" data-toggle="modal" data-target="#myModal">Neque porro quisquam est</a></h4>
-							<span>24th Sept | 09:00 - 11:00</span>
-							<p> Integer interdum eros vitae sem ultrices, sed eleifend tellus tincidunt. Nam nisl arcu, porttitor sit amet</p>
-							<div class="agileinfo-news-button">
-								<a href="#" class="hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal">More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 news-right-grid">
-						<div class="agile-news-info">
-							<img src="{{site.baseurl}}/images/n3.jpg" alt=" " class="img-responsive">
-							<h4><a href="#" data-toggle="modal" data-target="#myModal">Etiam ut nibh quis magna</a></h4>
-							<span>04th Oct | 12:00 - 02:00</span>
-							<p> Integer interdum eros vitae sem ultrices, sed eleifend tellus tincidunt. Nam nisl arcu, porttitor sit amet</p>
-							<div class="agileinfo-news-button">
-								<a href="#" class="hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal">More</a>
-							</div>
-						</div>
-					</div>
+					{% endfor %}
 					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
