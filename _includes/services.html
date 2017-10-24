@@ -2,39 +2,31 @@
 	<div class="services" id="services">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>Our services</h3>
+				<h3>{{ site.data.services.title }}</h3>
 			</div>
 			<div class="agileits-services-grids">
 				<div class="col-md-8 agileits-services-left">
-					<h4>Services Overview</h4>
+					<h4>{{ site.data.services.subtitle }}</h4>
 					<div class="agileits-services-text">
-						<p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+						<p>{{ site.data.services.overview }}</p>
 					</div>
 					<div class="credit-grids">
-						<h5>Credit Cards:</h5>
+						<h5>{{ site.data.services.product_1.name }}:</h5>
 						<div class="credit-grid-left">
+							{% for item in site.data.services.product_1.subproducts %}
 							<div class="credit-grid">
-								<img src="{{site.baseurl}}/assets/images/c2.jpg" alt="" />
-								<h6>Visa</h6>
-								<p>Nam libero tempore cum soluta nobis est</p>
+								<img src="{{ site.baseurl }}{{ item.img }}" alt="" />
+								<h6>{{ item.name }}</h6>
+								<p>{{ item.description }}</p>
 							</div>
-							<div class="credit-grid">
-								<img src="{{site.baseurl}}/assets/images/c3.jpg" alt="" />
-								<h6>MasterCard</h6>
-								<p>Nam libero tempore cum soluta nobis est</p>
-							</div>
-							<div class="credit-grid">
-								<img src="{{site.baseurl}}/assets/images/c4.jpg" alt="" />
-								<h6>MasterCard</h6>
-								<p>Nam libero tempore cum soluta nobis est</p>
-							</div>
+							{% endfor %}							
 							<div class="clearfix"> </div>
 						</div>
 					</div>
 					<div class="credit-grids debit-grids">
-						<h5>Debit Cards:</h5>
+						<h5>{{ site.data.services.product_2.name }}:</h5>
 						<div class="debit-grids-text">
-							<p>Morbi nec justo ut ex rhoncus luctus. Duis id ex egestas, tempus lorem sed, porta urna. Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac.</p>
+							<p>{{ site.data.services.product_2.description }}</p>
 						</div>
 						<div class="w3-services-grids">
 																
@@ -66,51 +58,39 @@
 					</div>
 				</div>
 				<div class="col-md-4 agileits-services-right">
-					<h4>Marketing Services</h4>
+					<h4>{{ site.data.services.product_3.name }}</h4>
 					<div class="services-two-grids">
 						<div class="agileinfo-services-right">
-							<img src="{{site.baseurl}}/assets/images/10.jpg" alt="" />
-							<h6>Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida suscipit</h6>
+							<img src="{{ site.baseurl }}{{ site.data.services.product_3.img }}" alt="" />
+							<h6>{{ site.data.services.product_3.description }}</h6>
 						</div>
 						<!-- date -->
 						<div id="design" class="date">
-										<div id="cycler">   
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet,</a>
-											</div>
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Cras vestibulum dapibus <span class="blinking"><img src="{{ site.baseurl }}/assets/images/new.png" alt="" /></span></a>
-											</div>
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Fusce id molestie mauris</a>
-											</div>
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Aliquam vulputate arcu enim <span class="blinking"><img src="{{ site.baseurl }}/assets/images/new.png" alt="" /></span></a>
-											</div>
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Donec ac turpis aliquet</a>
-											</div>
-											<div class="date-text">
-												<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> Morbi nec justo ut ex rhoncus luctus</a>
-											</div>
-										</div>
-										<script>
-										function blinker() {
-											$('.blinking').fadeOut(500);
-											$('.blinking').fadeIn(500);
-										}
-										setInterval(blinker, 1000);
-										</script>
-										<script>
-											function cycle($item, $cycler){
-												setTimeout(cycle, 2000, $item.next(), $cycler);
-												
-												$item.slideUp(1000,function(){
-													$item.appendTo($cycler).show();        
-												});
-												}
-											cycle($('#cycler div:first'),  $('#cycler'));
-										</script>
+							<div id="cycler">   
+
+								{% for item in site.data.services.product_3.features %}
+								<div class="date-text">
+									<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> {{ item.name }} <span class="blinking"><img src="{{ site.baseurl }}/assets/images/new.png" alt="" /></span></a>
+								</div>
+								{% endfor %}	
+								
+							</div>
+							<script>
+								function blinker() {
+									$('.blinking').fadeOut(500);
+									$('.blinking').fadeIn(500);
+								}
+								setInterval(blinker, 1000);
+							</script>
+							<script>
+								function cycle($item, $cycler){
+									setTimeout(cycle, 2000, $item.next(), $cycler);			
+									$item.slideUp(1000,function(){
+										$item.appendTo($cycler).show();        
+									});
+								}
+								cycle($('#cycler div:first'),  $('#cycler'));
+							</script>
 						</div>
 						<!-- //date -->
 					</div>

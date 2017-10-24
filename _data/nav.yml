@@ -1,0 +1,20 @@
+- tab: Home
+  ref: '{{site.baseurl}}/index.html'
+
+- tab: About
+  ref: '#about'
+
+- tab: Services
+  ref: '#services'
+
+- tab: Blog
+  ref: '#blog'
+
+- tab: News
+  ref: '#news'
+
+- tab: Feedback
+  ref: '#feedback'
+
+- tab: Contact
+  ref: '#contact'    

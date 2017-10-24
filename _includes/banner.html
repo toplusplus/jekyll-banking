@@ -9,18 +9,14 @@
 					<div class="slider">
 						<div class="callbacks_container">
 							<ul class="rslides callbacks callbacks1" id="slider4">
+								{% for item in site.data.banner %}
 								<li>
 									<div class="agileits-banner-info">
-										<h3>Get reliable help with your credit card processing needs</h3>
-										<p>Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. </p>
+										<h3>{{ item.title }}</h3>
+										<p>{{ item.description }}</p>
 									</div>
 								</li>
-								<li>
-									<div class="agileits-banner-info">
-										<h3>Accept Credit Cards On Your Smartphone Today!</h3>
-										<p>Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. </p>
-									</div>
-								</li>
+								{% endfor %}									
 							</ul>
 						</div>
 						<script src="{{site.baseurl}}/assets/js/responsiveslides.min.js"></script>

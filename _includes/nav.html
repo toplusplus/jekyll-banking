@@ -14,13 +14,13 @@
 					<!--navbar-header-->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="{{site.baseurl}}/index.html" class="active">Home</a></li>
-							<li><a href="#about" class="scroll">About</a></li>
-							<li><a href="#services" class="scroll">Services</a></li>
-							<li><a href="#blog" class="scroll">Blog</a></li>
-							<li><a href="#news" class="scroll">Events</a></li>
-							<li><a href="#feedback" class="scroll">Feedback</a></li>
-							<li><a href="#contact" class="scroll">Contact</a></li>
+							{% for item in site.data.nav %}
+							{% if forloop.first == true %}							
+								<li><a href="{{ item.ref }}" class="active">{{ item.tab }}</a></li>
+							{% else %}	
+								<li><a href="{{ item.ref }}">{{ item.tab }}</a></li>
+							{% endif %}	
+							{% endfor %}	
 						</ul>	
 						<div class="clearfix"> </div>	
 					</div>

@@ -2,22 +2,23 @@
 	<div class="about" id="about">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>About Us</h3>
+				<h3>{{ site.data.about.title }}</h3>
 			</div>
 			<div class="w3ls-about-grids">
 				<div class="col-md-6 about-right">
 					<img src="{{site.baseurl}}/assets/images/9.jpg" alt="">
 				</div>
 				<div class="col-md-6 about-left"> 
-					<h4>Sed tincidunt lorem </h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis, eget placerat mauris sed lectus tellus
-					<span> Fusce eu semper lacus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia.</span></p>
+					<h4>{{ site.data.about.subtitle }}</h4>
+
+					{% for item in site.data.about.description %}
+					<p>{{ item.chunk }}</p>
+					{% endfor %}						
+
 					<ul> 
-						<li><span class="glyphicon glyphicon-share-alt"></span> Duis aute irure dolor in reprehenderit voluptate </li>
-						<li><span class="glyphicon glyphicon-share-alt"></span> Excepteur sint occaecat cupidatat non proident</li>
-						<li><span class="glyphicon glyphicon-share-alt"></span> Sunt in culpa qui officia deserunt mollit </li>
-						<li><span class="glyphicon glyphicon-share-alt"></span> Duis aute irure dolor in reprehenderit voluptate </li>
-						<li><span class="glyphicon glyphicon-share-alt"></span> Excepteur sint occaecat cupidatat non proident</li> 
+						{% for item in site.data.about.features %}
+						<li><span class="glyphicon glyphicon-share-alt"></span> {{ item.name }}</li>
+						{% endfor %}						
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

@@ -1,0 +1,16 @@
+title: Contact Us
+part_1: Get in touch
+phonenumbers:   
+  - number: +1 234 567 8901
+  - number: +1 234 567 8902
+
+part_2: Address
+address: 
+  - chunk: 123 Fourth Avenue,
+  - chunk: lacinia eros 98104,
+  - chunk: New Jersey,
+  - chunk: United States.  
+
+part_3: Email
+email: mail@example.com    
+
