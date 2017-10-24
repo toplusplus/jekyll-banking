@@ -1,5 +1,5 @@
 - tab: Home
-  ref: '{{site.baseurl}}/index.html'
+  ref: /jekyll-banking/index.html
 
 - tab: About
   ref: '#about'
@@ -17,4 +17,4 @@
   ref: '#feedback'
 
 - tab: Contact
-  ref: '#contact'    
+  ref: '#contact'

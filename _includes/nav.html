@@ -18,7 +18,7 @@
 							{% if forloop.first == true %}							
 								<li><a href="{{ item.ref }}" class="active">{{ item.tab }}</a></li>
 							{% else %}	
-								<li><a href="{{ item.ref }}">{{ item.tab }}</a></li>
+								<li><a href="{{ item.ref }}" class="scroll">{{ item.tab }}</a></li>
 							{% endif %}	
 							{% endfor %}	
 						</ul>	
