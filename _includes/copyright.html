@@ -2,7 +2,8 @@
 	<div class="jarallax footer">
 		<div class="container">
 			<div class="footer-logo">
-				<h3><a href="{{site.baseurl}}/index.html">Net <span>Banking</span></a></h3>
+				{% assign words = site.title | split: ' ' %}				
+				<h3><a href="{{site.baseurl}}/index.html">{{ words[0] }} <span>{{ words[1] }}</span></a></h3>
 			</div>
 			<div class="agileinfo-social-grids">
 				<h4>We are social</h4>

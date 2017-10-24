@@ -37,30 +37,30 @@
 							<p>Morbi nec justo ut ex rhoncus luctus. Duis id ex egestas, tempus lorem sed, porta urna. Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac.</p>
 						</div>
 						<div class="w3-services-grids">
+																
+							{% for service in site.services %}							
+
+								{% if service.title == "Service One" %}  								
+									{% assign fa_class = "fa-money" %}	
+								{% elsif service.title == "Service Two" %} 					
+									{% assign fa_class = "fa-credit-card" %}
+								{% elsif service.title == "Service Three" %} 									
+									{% assign fa_class = "fa-line-chart" %}
+								{% endif %}														
+     
+     						<a href="{{ service.url | prepend: site.baseurl }}">
 							<div class="col-md-4 w3l-services-grid">
 								<div class="w3ls-services-img">
-									<i class="fa fa-money" aria-hidden="true"></i>
+									<i class="fa {{ fa_class }}" aria-hidden="true"></i>
 								</div>
-								<div class="agileits-services-info">
-									<h4>Service One</h4>
-								</div>
+								<div class="agileits-services-info">									
+									<h4>{{ service.title }}</h4>									
+								</div>								
 							</div>
-							<div class="col-md-4 w3l-services-grid">
-								<div class="w3ls-services-img">
-									<i class="fa fa-credit-card" aria-hidden="true"></i>
-								</div>
-								<div class="agileits-services-info">
-									<h4>Service Two</h4>
-								</div>
-							</div>
-							<div class="col-md-4 w3l-services-grid">
-								<div class="w3ls-services-img">
-									<i class="fa fa-line-chart" aria-hidden="true"></i>
-								</div>
-								<div class="agileits-services-info">
-									<h4>Service Three</h4>
-								</div>
-							</div>
+							</a>			
+
+							{% endfor %}
+
 							<div class="clearfix"> </div>
 						</div>
 					</div>

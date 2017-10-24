@@ -1,0 +1,65 @@
+{% include head.html %}
+
+	<div class="banner">		
+		{% include nav-pages.html %}
+	</div>	
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Title -->
+          <h1 class="mt-4">{{ page.title }}</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="#">{{ page.author }}</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on {{ page.date }}</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+          <img class="img-fluid rounded" src="{{ site.baseurl }}{{ page.img }}" alt="">
+
+          <hr>
+
+          <!-- Post Content -->
+          <p><big>{{ page.content }}</big></p>
+
+          {% for i in (1..2) %}
+            {{ page.content }}
+          {%  endfor %}          
+
+          <blockquote class="blockquote">
+            <p class="mb-0">{{ page.cite }}</p>
+            <footer class="blockquote-footer">{{ page.cite_author }} in
+              <cite title="Source Title">{{ page.cite_source }}</cite>
+            </footer>
+          </blockquote>
+
+          {% for i in (1..2) %}
+            {{ page.content }}
+          {%  endfor %}
+
+          <hr>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+{% include copyright.html %}
+
+{% include foot.html %}

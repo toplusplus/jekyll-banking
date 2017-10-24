@@ -1,4 +1,11 @@
+title: Jekyll Banking
 baseurl: /jekyll-banking
-collections:
-  - events
-  - feedback
+collections: 
+  events:
+    output: false
+
+  feedback:
+    output: false
+
+  services: 
+    output: true
