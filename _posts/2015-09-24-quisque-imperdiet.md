@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quisque imperdiet luctus gravida
-img: /images/p2.png
+img: /assets/images/p2.png
 author: admin
 likes: 231
 comments: 24

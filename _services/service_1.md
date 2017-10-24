@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Service One
-img: /images/s1.png
+img: /assets/images/s1.png
 cost: $24.99
 stars: 4.0
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!

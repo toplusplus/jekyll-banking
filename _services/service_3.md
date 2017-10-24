@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Service Three
-img: /images/s3.png
+img: /assets/images/s3.png
 cost: $94.99
 stars: 4.5
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!
