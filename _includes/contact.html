@@ -27,10 +27,11 @@
 						<h5>{{ site.data.contact.part_2 }}</h5>
 						<ul>
 							{% for item in site.data.contact.address %}
-							<li>{ item.chunk }</li>							
+							<li>{{ item.chunk }}</li>							
 							{% endfor %}
 						</ul>
 					</div>
+					<br>
 					<div class="agileits-w3layouts-address-top">
 						<h5>{{ site.data.contact.part_3 }}</h5>
 						<ul>
