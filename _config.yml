@@ -1,11 +1,20 @@
+---
 title: Jekyll Banking
-baseurl: /jekyll-banking
-collections: 
+timezone: UTC
+collections:
   events:
+    title: Events
     output: false
-
   feedback:
+    title: Feedback
     output: false
-
-  services: 
+  posts:
+    title: Posts
     output: true
+  services:
+    title: Services
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: "/jekyll-banking"
