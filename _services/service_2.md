@@ -1,6 +1,6 @@
 ---
 title: Service Two
-position: 1
+position: 2
 layout: service
 img: "/assets/images/s2.png"
 cost: "$44.99"

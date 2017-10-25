@@ -1,6 +1,6 @@
 ---
 title: Service One
-position: 2
+position: 1
 layout: service
 img: "/assets/images/s1.png"
 cost: "$24.99"
