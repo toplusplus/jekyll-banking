@@ -1,5 +1,6 @@
 ---
 title: Service Three
+position: 0
 layout: service
 img: "/assets/images/s3.png"
 cost: "$94.99"

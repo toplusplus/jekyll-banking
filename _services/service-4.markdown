@@ -1,6 +1,7 @@
 ---
 title: Service Four
 date: 2017-10-25 19:56:00 Z
+position: 3
 img: "/assets/images/s3.png"
 cost: "$94.99"
 stars: 4.5
