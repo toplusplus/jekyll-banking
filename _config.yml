@@ -2,14 +2,14 @@
 title: Jekyll Banking
 timezone: UTC
 collections:
+  datafiles:
+    title: Data
+    output: false
   events:
     title: Events
     output: false
   feedback:
     title: Feedback
-    output: false
-  datafiles:
-    title: Data
     output: false
   posts:
     title: Posts
