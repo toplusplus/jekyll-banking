@@ -1,3 +1,4 @@
+	{% assign file = site.datafiles | where:"title", page.banner-title | first %}
 	<!-- banner -->
 	<div class="banner">
 		<!--header-->
@@ -9,8 +10,6 @@
 					<div class="slider">
 						<div class="callbacks_container">
 							<ul class="rslides callbacks callbacks1" id="slider4">
-								{% for file in site.datafiles %}
-								{% if file.title == "banner" %}
 								{% for item in file.items %}
 								<li>
 									<div class="agileits-banner-info">
@@ -18,8 +17,6 @@
 										<p>{{ item.description }}</p>
 									</div>
 								</li>
-								{% endfor %}
-								{% endif %}
 								{% endfor %}
 							</ul>
 						</div>
