@@ -2,23 +2,34 @@
 	<div class="welcome" id="welcome">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h2>{{ site.data.welcome.title }}</h2>
+				{% for file in site.datafiles %}
+				{% if file.title == "welcome" %}
+				<h2>{{ file.title | capitalize }}</h2>
+				{% endif %}
+				{% endfor %}
 			</div>
 			<div class="w3l-welcome-info">
+
+				{% for file in site.datafiles %}
+				{% if file.title == "welcome" %}
+				{% for item in file.imgs %}
 				<div class="col-sm-6 welcome-grids">
 					<div class="welcome-img">
-						<img src="{{site.baseurl}}/assets/images/4.jpg" class="img-responsive zoom-img" alt="">
+						<img src="{{ site.baseurl }}{{ item.image }}" class="img-responsive zoom-img" alt="">
 					</div>
 				</div>
-				<div class="col-sm-6 welcome-grids">
-					<div class="welcome-img">
-						<img src="{{site.baseurl}}/assets/images/6.jpg" class="img-responsive zoom-img" alt="">
-					</div>
-				</div>
+				{% endfor %}
+				{% endif %}
+				{% endfor %}
+
 				<div class="clearfix"> </div>
 			</div>
 			<div class="w3l-welcome-text">
-				<p>{{ site.data.welcome.description }}</p>
+				{% for file in site.datafiles %}
+				{% if file.title == "welcome" %}
+				<p>{{ file.description }}</p>
+				{% endif %}
+				{% endfor %}
 			</div>
 		</div>
 	</div>
