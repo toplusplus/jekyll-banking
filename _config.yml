@@ -9,7 +9,7 @@ collections:
     title: Feedback
     output: false
   datafiles:
-    title: NA
+    title: Data
     output: false
   posts:
     title: Posts
