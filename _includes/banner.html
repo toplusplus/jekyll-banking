@@ -9,14 +9,18 @@
 					<div class="slider">
 						<div class="callbacks_container">
 							<ul class="rslides callbacks callbacks1" id="slider4">
-								{% for item in site.data.banner %}
+								{% for file in site.datafiles %}
+								{% if file.title == "banner" %}
+								{% for item in file.items %}
 								<li>
 									<div class="agileits-banner-info">
 										<h3>{{ item.title }}</h3>
 										<p>{{ item.description }}</p>
 									</div>
 								</li>
-								{% endfor %}									
+								{% endfor %}
+								{% endif %}
+								{% endfor %}
 							</ul>
 						</div>
 						<script src="{{site.baseurl}}/assets/js/responsiveslides.min.js"></script>

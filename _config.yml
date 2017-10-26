@@ -17,4 +17,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+  datafiles:
+    title: NA
+    output: false    
 baseurl: "/jekyll-banking"
