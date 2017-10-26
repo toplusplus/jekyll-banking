@@ -1,16 +1,17 @@
 ---
 title: About Us
 subtitle: Sed tincidunt lorem
-description: 
-  - chunk: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis, eget placerat mauris sed lectus tellus. 
-  - chunk: Fusce eu semper lacus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia.
-  
-features: 
-  - name: Duis aute irure dolor in reprehenderit voluptate
-  - name: Excepteur sint occaecat cupidatat non proident
-  - name: Sunt in culpa qui officia deserunt mollit
-  - name: Duis aute irure dolor in reprehenderit voluptate
-  - name: Excepteur sint occaecat cupidatat non proident
+description:
+- chunk: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem
+    sed velit fermentum lobortis, eget placerat mauris sed lectus tellus.
+- chunk: Fusce eu semper lacus, sodales id elit a, feugiat porttitor nulla. Sed porta
+    magna vitae nisl vulputate lacinia.
+features:
+- name: Duis aute irure dolor in reprehenderit voluptate
+- name: Excepteur sint occaecat cupidatat non proident
+- name: Sunt in culpa qui officia deserunt mollit
+- name: Duis aute irure dolor in reprehenderit voluptate
+- name: Excepteur sint occaecat cupidatat non proident
 ---
 
 	<!-- about -->
