@@ -8,6 +8,9 @@ collections:
   feedback:
     title: Feedback
     output: false
+  datafiles:
+    title: NA
+    output: false
   posts:
     title: Posts
     output: true
@@ -17,7 +20,4 @@ collections:
   uploads:
     title: Uploads
     output: true
-  datafiles:
-    title: NA
-    output: false    
 baseurl: "/jekyll-banking"
