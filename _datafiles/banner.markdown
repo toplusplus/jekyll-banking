@@ -1,6 +1,6 @@
 ---
-key: banner
 title: banner
+key: banner
 items:
 - title: Get reliable help with your credit card processing needs
   description: Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque
