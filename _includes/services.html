@@ -1,19 +1,20 @@
+	{% assign file = site.datafiles | where:"key", page.services-key | first %}
 	<!-- services -->
 	<div class="services" id="services">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>{{ site.data.services.title }}</h3>
+				<h3>{{ file.title }}</h3>
 			</div>
 			<div class="agileits-services-grids">
 				<div class="col-md-8 agileits-services-left">
-					<h4>{{ site.data.services.subtitle }}</h4>
+					<h4>{{ file.subtitle }}</h4>
 					<div class="agileits-services-text">
-						<p>{{ site.data.services.overview }}</p>
+						<p>{{ file.overview }}</p>
 					</div>
 					<div class="credit-grids">
-						<h5>{{ site.data.services.product_1.name }}:</h5>
+						<h5>{{ file.sections[0].name }}:</h5>
 						<div class="credit-grid-left">
-							{% for item in site.data.services.product_1.subproducts %}
+							{% for item in file.sections[0].subproducts %}
 							<div class="credit-grid">
 								<img src="{{ site.baseurl }}{{ item.img }}" alt="" />
 								<h6>{{ item.name }}</h6>
@@ -24,28 +25,18 @@
 						</div>
 					</div>
 					<div class="credit-grids debit-grids">
-						<h5>{{ site.data.services.product_2.name }}:</h5>
+						<h5>{{ file.sections[1].name }}:</h5>
 						<div class="debit-grids-text">
-							<p>{{ site.data.services.product_2.description }}</p>
+							<p>{{ file.sections[1].description }}</p>
 						</div>
 						<div class="w3-services-grids">
 																
-							{% for service in site.services %}							
+							{% for service in site.services %}
 
-								{% if service.title == "Service One" %}  								
-									{% assign fa_class = "fa-money" %}	
-								{% elsif service.title == "Service Two" %} 					
-									{% assign fa_class = "fa-credit-card" %}
-								{% elsif service.title == "Service Three" %} 									
-									{% assign fa_class = "fa-line-chart" %}
-								{% elsif service.title == "Service Four" %} 									
-									{% assign fa_class = "fa-line-chart" %}
-								{% endif %}														
-     
      						<a href="{{ service.url | prepend: site.baseurl }}">
 							<div class="col-md-4 w3l-services-grid">
 								<div class="w3ls-services-img">
-									<i class="fa {{ fa_class }}" aria-hidden="true"></i>
+									<i class="fa {{ service.class-fa }}" aria-hidden="true"></i>
 								</div>
 								<div class="agileits-services-info">									
 									<h4>{{ service.title }}</h4>									
@@ -60,17 +51,17 @@
 					</div>
 				</div>
 				<div class="col-md-4 agileits-services-right">
-					<h4>{{ site.data.services.product_3.name }}</h4>
+					<h4>{{ file.sections[2].name }}</h4>
 					<div class="services-two-grids">
 						<div class="agileinfo-services-right">
-							<img src="{{ site.baseurl }}{{ site.data.services.product_3.img }}" alt="" />
-							<h6>{{ site.data.services.product_3.description }}</h6>
+							<img src="{{ site.baseurl }}{{ file.product_3.img }}" alt="" />
+							<h6>{{ file.sections[2].description }}</h6>
 						</div>
 						<!-- date -->
 						<div id="design" class="date">
 							<div id="cycler">   
 
-								{% for item in site.data.services.product_3.features %}
+								{% for item in file.sections[2].features %}
 								<div class="date-text">
 									<a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-right" aria-hidden="true"></i> {{ item.name }} <span class="blinking"><img src="{{ site.baseurl }}/assets/images/new.png" alt="" /></span></a>
 								</div>
