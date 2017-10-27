@@ -1,4 +1,5 @@
 ---
-key: blog
 title: Our Blog
+key: blog
 ---
+
