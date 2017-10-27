@@ -1,8 +1,9 @@
+	{% assign file = site.datafiles | where:"key", page.feedback-key | first %}
 	<!-- feedback -->
 	<div class="jarallax feedback" id="feedback">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>Clients Feedback</h3>
+				<h3>{{ file.title }}</h3>
 			</div>
 			<div class="agileits-feedback-grids">
 				<div id="owl-demo" class="owl-carousel owl-theme">
