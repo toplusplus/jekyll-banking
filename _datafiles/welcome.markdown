@@ -1,5 +1,5 @@
 ---
-title: welcome
+title: Welcome
 key: welcome
 description: Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit
   quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit

@@ -1,5 +1,5 @@
 ---
-title: banner
+title: Banner
 key: banner
 items:
 - title: Get reliable help with your credit card processing needs
