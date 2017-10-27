@@ -1,4 +1,4 @@
-	{% assign file = site.datafiles | where:"key", page.banner-key | first %}
+	{% assign file = site.datafiles | where:"key", site.banner-key | first %}
 	{% assign parent = file %}
 	<!-- banner -->
 	<div class="banner">
