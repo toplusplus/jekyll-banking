@@ -1,8 +1,9 @@
+	{% assign file = site.datafiles | where:"key", page.blog-key | first %}
 	<!-- works -->
 	<div class="jarallax blog" id="blog">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>Our Blog</h3>
+				<h3>{{ file.title }}</h3>
 			</div>
 			<div class="wthree-blog-grids">
 				{% for post in site.posts %}
