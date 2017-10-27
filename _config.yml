@@ -22,6 +22,7 @@ collections:
     output: true
 baseurl: "/jekyll-banking"
 nav-key: nav
+<<<<<<< HEAD
 welcome-key: welcome
 banner-key: banner
 about-key: about
@@ -31,3 +32,5 @@ events-key: events
 feedback-key: feedback
 contact-key: contact
 copyright-key: copyright
+=======
+>>>>>>> 06b92156cd24b2ce5994edb08a32b62bfd59ae55
