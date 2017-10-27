@@ -1,8 +1,10 @@
 	{% assign file = site.datafiles | where:"key", page.banner-key | first %}
+	{% assign parent = file %}
 	<!-- banner -->
 	<div class="banner">
 		<!--header-->
 		{% include nav.html %}
+		{% assign file = parent %}
 		<!--//header-->
 		<div class="w3layouts-banner-info">
 			<div class="container">

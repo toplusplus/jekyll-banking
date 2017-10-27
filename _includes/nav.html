@@ -1,3 +1,4 @@
+   		{% assign file = site.datafiles | where:"key", site.nav-key | first %}
 		<div class="header">
 			<div class="container">		
 				<nav class="navbar navbar-default">
@@ -14,11 +15,11 @@
 					<!--navbar-header-->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							{% for item in site.data.nav %}
+							{% for item in file.tabs %}
 							{% if forloop.first == true %}							
-								<li><a href="{{ item.ref }}" class="active">{{ item.tab }}</a></li>
+								<li><a href="{{ item.ref }}" class="active">{{ item.title }}</a></li>
 							{% else %}	
-								<li><a href="{{ item.ref }}" class="scroll">{{ item.tab }}</a></li>
+								<li><a href="{{ item.ref }}" class="scroll">{{ item.title }}</a></li>
 							{% endif %}	
 							{% endfor %}	
 						</ul>	

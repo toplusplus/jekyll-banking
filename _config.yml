@@ -21,3 +21,4 @@ collections:
     title: Uploads
     output: true
 baseurl: "/jekyll-banking"
+nav-key: nav
