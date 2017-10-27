@@ -1,22 +1,23 @@
+	{% assign file = site.datafiles | where:"key", page.about-key | first %}
 	<!-- about -->
 	<div class="about" id="about">
 		<div class="container">
 			<div class="w3-welcome-heading">
-				<h3>{{ site.data.about.title }}</h3>
+				<h3>{{ file.title }}</h3>
 			</div>
 			<div class="w3ls-about-grids">
 				<div class="col-md-6 about-right">
-					<img src="{{site.baseurl}}/assets/images/9.jpg" alt="">
+					<img src="{{site.baseurl}}{{ file.image }}" alt="">
 				</div>
 				<div class="col-md-6 about-left"> 
-					<h4>{{ site.data.about.subtitle }}</h4>
+					<h4>{{ file.subtitle }}</h4>
 
-					{% for item in site.data.about.description %}
+					{% for item in file.description %}
 					<p>{{ item.chunk }}</p>
 					{% endfor %}						
 
 					<ul> 
-						{% for item in site.data.about.features %}
+						{% for item in file.features %}
 						<li><span class="glyphicon glyphicon-share-alt"></span> {{ item.name }}</li>
 						{% endfor %}						
 					</ul>
