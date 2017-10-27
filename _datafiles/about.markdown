@@ -2,7 +2,7 @@
 title: About Us
 key: about
 subtitle: Sed tincidunt lorem
-image: "/assets/images/9.jpg"
+image: "/uploads/8.jpg"
 description:
 - chunk: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem
     sed velit fermentum lobortis, eget placerat mauris sed lectus tellus.
