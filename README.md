@@ -40,7 +40,7 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 <img src="assets/welcome.png">
 </p>
 
-#### Archivo de datos 'welcome.md' en el editor de SiteLeaf \[Click para agrandar\]
+#### Archivo de datos 'welcome.md' en el editor de SiteLeaf \[click en la imagen para agrandar\]
 
 <p align="center">
 <a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
@@ -69,7 +69,7 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 #### Team \[$29.40 por sitio\]
 
-* Soporte de roles de usuario (**Admin**, **Publicador**, **Escritor**).
+* Soporte de roles de usuario (**Admin**, **Publisher**, **Writer**).
 * Páginas ilimitadas. 
 * 1GB de almacenamiento.
 
