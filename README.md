@@ -20,7 +20,7 @@ Actualmente, existen varios CMSs en el mercado desarrollados específicamente pa
 * Editor de archivos markdown.
 * Roles de usuarios (**Admin**, **Publicador**, **Escritor**).
 
-## Consideraciones para el uso SiteLeaf
+## Consideraciones para el uso de SiteLeaf
 
 Es necesario tener presente algunas consideraciones a la hora de adaptar un sitio desarrollado con *Jekyll* para que su contenido sea gestionado con *SiteLeaf*:
 
@@ -57,8 +57,15 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 * Páginas ilimitadas. 
 * 1GB de almacenamiento.
 
+### Roles de Usuario
+
+<próximamente>
+
 ### Demos
+
+<próximamente>
 
 ## Conclusiones
 
+<próximamente>
 
