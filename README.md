@@ -32,7 +32,19 @@ Es necesario tener presente algunas consideraciones a la hora de adaptar un siti
 
 El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **markdown**. En consecuencia, aquellos **archivos de datos (yaml, csv, json) contenidos en el directorio \_data NO pueden ser editados con SiteLeaf**. Incluso, el directorio \_data ni siquiera aparece en el dashboard!
 
-**Solución**: se puede simular la funcionalidad del directorio \_data creando una *colección* con un nombre similar (ej. *datafiles*) y almacenando allí los archivos de datos pero en formato **markdown** encerrando sus contenidos dentro del **Front Matter**. De esta forma nuestros archivos de datos solo contendrán **metadata** que puede ser editada desde *SiteLeaf*. 
+**Solución**: se puede simular la funcionalidad del directorio \_data creando una *colección* con un nombre similar (ej. *datafiles*) y almacenando allí los archivos de datos pero en formato **markdown** encerrando sus contenidos dentro del **Front Matter**. De esta forma nuestros archivos de datos solo contendrán **metadata** que puede ser editada desde *SiteLeaf*.
+
+#### Archivo de datos 'welcome.md'
+
+<p align="center">
+<img src="assets/welcome.png">
+</p>
+
+#### Archivo de datos 'welcome.md' en el editor de SiteLeaf \[Click para agrandar\]
+
+<p align="center">
+<a href="assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
+</p>
 
 ### Planes
 
