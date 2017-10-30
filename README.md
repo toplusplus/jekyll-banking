@@ -6,12 +6,16 @@ La simplicidad de *Jekyll* viene a expensas de algunas de las características d
 
 Actualmente, existen varios CMSs en el mercado desarrollados específicamente para solucionar el problema antes planteado. Uno de ellos es [SiteLeaf](https://www.siteleaf.com/), un CMS completamente compatible con *Jekyll* con considerables ventajas tanto para el desarrollo como la edición, que valen la pena analizar.
 
+<p align="center">
+<img src="assets/jekyllsiteleaf.png">
+</p>
+
 ### Ventajas de SiteLeaf desde la perspectiva del 'Desarrollo': 
 
 * Integración con **GitHub** (Todos los cambios hechos en *SiteLeaf* se sincronizan con el repositorio del proyecto).
 * Soporte de **Saas** y **CoffeeScript**.
 * Acceso a los datos vía **API**.
-* Publicación en **Amazon S3**, **Rackspace**, **GitHub Pages**, o **FTP**. 
+* Publicación en **Amazon S3**, **Rackspace**, **GitHub Pages** o **FTP**. 
 
 ### Ventajas de SiteLeaf desde la perspectiva de la 'Edición de contenido':
 
