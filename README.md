@@ -34,13 +34,13 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 **Solución**: se puede simular la funcionalidad del directorio \_data creando una *colección* con un nombre similar (ej. *datafiles*) y almacenando allí los archivos de datos pero en formato **markdown** encerrando sus contenidos dentro del **Front Matter**. De esta forma nuestros archivos de datos solo contendrán **metadata** que puede ser editada desde *SiteLeaf*.
 
-#### Archivo de datos 'welcome.md'
+#### Archivo de datos 'welcome.markdown'
 
 <p align="center">
 <img src="assets/welcome.png">
 </p>
 
-#### Archivo de datos 'welcome.md' en el editor de SiteLeaf \[click en la imagen para agrandar\]
+#### Archivo de datos 'welcome.markdown' en el editor de SiteLeaf \[click en la imagen para agrandar\]
 
 <p align="center">
 <a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
