@@ -6,19 +6,59 @@ La simplicidad de *Jekyll* viene a expensas de algunas de las características d
 
 Actualmente, existen varios CMSs en el mercado desarrollados específicamente para solucionar el problema antes planteado. Uno de ellos es [SiteLeaf](https://www.siteleaf.com/), un CMS completamente compatible con *Jekyll* con considerables ventajas tanto para el desarrollo como la edición, que valen la pena analizar.
 
-### Ventajas de SiteLeaf desde la perpectiva del 'Desarrollo': 
+### Ventajas de SiteLeaf desde la perspectiva del 'Desarrollo': 
 
-* Integración con *GitHub* (Todos los cambios hechos en *SiteLeaf* se sincronizan con el repositorio del proyecto).
-* Soporte de *Saas* y *CoffeeScript*.
+* Integración con **GitHub** (Todos los cambios hechos en *SiteLeaf* se sincronizan con el repositorio del proyecto).
+* Soporte de **Saas** y **CoffeeScript**.
 * Acceso a los datos vía **API**.
 * Publicación en **Amazon S3**, **Rackspace**, **GitHub Pages**, o **FTP**. 
 
-### Ventajas de SiteLeaf desde la perpectiva de la 'Edición de contenido':
+### Ventajas de SiteLeaf desde la perspectiva de la 'Edición de contenido':
 
 * Vista previa de los cambios antes de publicar.
 * Adición de imágenes y archivos de texto vía **Drag-and-Drop**.
 * Editor de archivos markdown.
 * Roles de usuarios (**Admin**, **Publicador**, **Escritor**).
 
+## Consideraciones para el uso SiteLeaf
+
+Es necesario tener presente algunas consideraciones a la hora de adaptar un sitio desarrollado con *Jekyll* para que su contenido sea gestionado con *SiteLeaf*:
+
+### Archivos de datos
+
+El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **markdown**. En consecuencia, aquellos **archivos de datos (yaml, csv, json) contenidos en el directorio \_data NO pueden ser editados con SiteLeaf**. Incluso, el directorio \_data ni siquiera aparece en el dashboard!
+
+**Solución**: se puede simular la funcionalidad del directorio \_data creando una *colección* con un nombre similar (ej. *datafiles*) y almacenando allí los archivos de datos pero en formato **markdown** encerrando sus contenidos dentro del **Front Matter**. De esta forma nuestros archivos de datos solo contendrán **metadata** que puede ser editada desde *SiteLeaf*. 
+
+### Planes
+
+*SiteLeaf* ofrece cinco planes, en el presente documento se analizan las principales características de los primeros tres planes: **Developer**, **Personal** y **Team**.  
+
+#### Developer \[Gratis\]
+
+* Sincronización y publicación en **repositorios públicos** de *GitHub*. 
+* Soporte únicamente de plugins **whitelisted** (aprobados por *GitHub*) de Jekyll.
+* Ilimitados colaboradores. 
+* 100 páginas máximo (incluyendo posts y documentos).
+* 100MB de almacenamiento.
+
+#### Personal \[$7.20 por sitio\]
+
+* Sincronización y publicación en **repositorios públicos y privados** de *GitHub*.
+* Publicación en **Amazon S3**, **Rackspace** y vía **FTP**.
+* Vista previa online del sitio antes de publicar.
+* Soporte de plugins basados en *Ruby gems*. 
+* 500 páginas máximo (incluyendo posts y documentos).
+* 500MB de almacenamiento.
+
+#### Team \[$29.40 por sitio\]
+
+* Soporte de roles de usuario (**Admin**, **Publicador**, **Escritor**).
+* Páginas ilimitadas. 
+* 1GB de almacenamiento.
+
+### Demos
+
+## Conclusiones
 
 
