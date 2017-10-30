@@ -22,7 +22,7 @@ Actualmente, existen varios CMSs en el mercado desarrollados específicamente pa
 * Vista previa de los cambios antes de publicar.
 * Adición de imágenes y archivos de texto vía **Drag-and-Drop**.
 * Editor de archivos markdown.
-* Roles de usuarios (**Admin**, **Publicador**, **Escritor**).
+* Roles de usuarios (**Admin**, **Publisher**, **Writer**).
 
 ## Consideraciones para el uso de SiteLeaf
 
@@ -43,7 +43,7 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 #### Archivo de datos 'welcome.md' en el editor de SiteLeaf \[Click para agrandar\]
 
 <p align="center">
-<a href="assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
+<a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
 </p>
 
 ### Planes
