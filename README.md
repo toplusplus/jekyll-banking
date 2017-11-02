@@ -151,8 +151,8 @@ En cuanto a los planes, para el desarrollo de páginas comerciales el plan **Per
 
 Usando el plan **Team** se pudieran mitigar varios de los riesgos antes mencionados, otorgándole al cliente privilegios de **Publisher**, aunque incluso este rol puede ser bastante permisivo y suponer riesgos sobre todo si el gestor de contenidos tiene poca o nula experticia técnológica. 
 
-¿Y entonces? Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un **manual de uso** donde se especifíque claramente todo lo que NO debe hacerse desde *SiteLeaf* para mantener el sitio sano. 
+### Propuestas
 
-Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró ningún componente vital del sitio) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.   
+Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un **manual de uso** donde se especifíque claramente todo lo que NO debe hacerse desde *SiteLeaf* para mantener el sitio sano. 
 
-
+Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró ningún componente vital del sitio) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.
