@@ -40,6 +40,8 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 **Solución**: se puede simular la funcionalidad del directorio \_data creando una *colección* con un nombre similar (ej. *datafiles*) y almacenando allí los archivos de datos pero en formato **markdown** encerrando sus contenidos dentro del **Front Matter**. De esta forma nuestros archivos de datos solo contendrán **metadata** que puede ser editada desde *SiteLeaf*.
 
+Ver: [SiteLeaf - Metadata](https://learn.siteleaf.com/content/metadata/)
+
 #### Archivo de datos 'welcome.markdown'
 
 <p align="center">
@@ -112,7 +114,7 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * Puede invitar a otros colaboradores y manejar sus roles. 
 
 <p align="center">
-<strong>Ideal para desarrolladores y diseñadores que participan en la creación del sitio.</strong>
+Ideal para desarrolladores y diseñadores que participan en la creación del sitio.
 </p> 
 
 #### Publisher
@@ -123,7 +125,7 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * No puede cambiar la configuración del sitio. 
 
 <p align="center">
-<strong>Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio.</strong>
+Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio.
 </p>
 
 #### Writer
@@ -132,8 +134,7 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * Todo el contenido generado debe ser aprobado previamente por un Publisher o Admin antes de ser publicado.
 
 <p align="center">
-<strong>Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido.
-</strong>
+Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido.
 </p> 
 
 Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-user-roles/)
@@ -144,6 +145,14 @@ Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-
 
 ## Conclusiones
 
-<próximamente>
+Uno de los puntos fuertes de *SiteLeaf* son las estructuras de datos que usa para habilitar la gestión de la metadata de los archivos. Son simples pero muy flexibles. Es posible mantener listas anidadas e incluso listas con items diferentes.
 
-Balance exposición riesgos.
+En cuanto a los planes, para el desarrollo de páginas comerciales el plan **Personal** pareciera ser suficiente por cuanto sus características de almacenamiento, sincronización y despliegue, sin embargo, este plan no cuenta con **roles de usuario**, por lo que el cliente (gestor de contenido) tendría privilegios de **Admin** y esto supone varios riesgos importantes para el sitio. El gestor de contenido podría accidentalmente alterar la configuración global del sitio, editar o eliminar archivos que alteren el layout, entre otros. 
+
+Usando el plan **Team** se pudieran mitigar varios de los riesgos antes mencionados, otorgándole al cliente privilegios de **Publisher**, aunque incluso este rol puede ser bastante permisivo y suponer riesgos sobre todo si el gestor de contenidos tiene poca o nula experticia técnológica. 
+
+¿Y entonces? Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un manual de uso donde se especifíque claramente todo lo que NO debe hacerse desde SiteLeaf para mantener el sitio sano. 
+
+Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró ningún componente vital del sitio) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.   
+
+
