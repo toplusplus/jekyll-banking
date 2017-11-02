@@ -114,7 +114,7 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * Puede invitar a otros colaboradores y manejar sus roles. 
 
 <p align="center">
-Ideal para desarrolladores y diseñadores que participan en la creación del sitio.
+"Ideal para desarrolladores y diseñadores que participan en la creación del sitio"
 </p> 
 
 #### Publisher
@@ -125,7 +125,7 @@ Ideal para desarrolladores y diseñadores que participan en la creación del sit
 * No puede cambiar la configuración del sitio. 
 
 <p align="center">
-Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio.
+"Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio"
 </p>
 
 #### Writer
@@ -134,7 +134,7 @@ Ideal para clientes, les permite manejar y publicar páginas, posts y assets mie
 * Todo el contenido generado debe ser aprobado previamente por un Publisher o Admin antes de ser publicado.
 
 <p align="center">
-Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido.
+"Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido"
 </p> 
 
 Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-user-roles/)
@@ -145,13 +145,13 @@ Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-
 
 ## Conclusiones
 
-Uno de los puntos fuertes de *SiteLeaf* son las estructuras de datos que usa para habilitar la gestión de la metadata de los archivos. Son simples pero muy flexibles. Es posible mantener listas anidadas e incluso listas con items diferentes.
+Uno de los puntos fuertes de *SiteLeaf* son las estructuras de datos que usa para habilitar la gestión de la metadata de los archivos. Son simples pero muy flexibles. Es posible mantener **listas anidadas** e incluso **listas con items diferentes**.
 
 En cuanto a los planes, para el desarrollo de páginas comerciales el plan **Personal** pareciera ser suficiente por cuanto sus características de almacenamiento, sincronización y despliegue, sin embargo, este plan no cuenta con **roles de usuario**, por lo que el cliente (gestor de contenido) tendría privilegios de **Admin** y esto supone varios riesgos importantes para el sitio. El gestor de contenido podría accidentalmente alterar la configuración global del sitio, editar o eliminar archivos que alteren el layout, entre otros. 
 
 Usando el plan **Team** se pudieran mitigar varios de los riesgos antes mencionados, otorgándole al cliente privilegios de **Publisher**, aunque incluso este rol puede ser bastante permisivo y suponer riesgos sobre todo si el gestor de contenidos tiene poca o nula experticia técnológica. 
 
-¿Y entonces? Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un manual de uso donde se especifíque claramente todo lo que NO debe hacerse desde SiteLeaf para mantener el sitio sano. 
+¿Y entonces? Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un **manual de uso** donde se especifíque claramente todo lo que NO debe hacerse desde *SiteLeaf* para mantener el sitio sano. 
 
 Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró ningún componente vital del sitio) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.   
 
