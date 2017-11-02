@@ -7,7 +7,7 @@ La simplicidad de *Jekyll* viene a expensas de algunas de las características d
 Actualmente, existen varios CMSs en el mercado desarrollados específicamente para solucionar el problema antes planteado. Uno de ellos es [SiteLeaf](https://www.siteleaf.com/), un CMS completamente compatible con *Jekyll* con considerables ventajas tanto para el desarrollo como la edición, que valen la pena analizar.
 
 <p align="center">
-<img src="assets/jekyllsiteleaf.png">
+ <img src="assets/jekyllsiteleaf.png">
 </p>
 
 ### Ventajas de SiteLeaf desde la perspectiva del 'Desarrollo': 
@@ -43,7 +43,7 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 #### Archivo de datos 'welcome.markdown' en el editor de SiteLeaf \[click en la imagen para agrandar\]
 
 <p align="center">
-<a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
 </p>
 
 ### Planes
@@ -51,7 +51,7 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 *SiteLeaf* ofrece cinco planes:
 
 <p align="center">
-<img src="assets/plans.png">
+ <a href="https://www.siteleaf.com/plans/"><img src="assets/plans.png"></a>
 </p>
 
 #### Developer \[Gratis\] 
@@ -89,11 +89,19 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 * Proceso de construcción hecho a la medida. 
 * Para obtener mayor información sobre este plan se debe contactar directamente con atención al cliente. 
 
-**Importante!** Los precios actuales (01/11/2017) presentan un descuento por motivo de la celebración del lanzamiento de la segunda versión de SiteLeaf.
+**Importante!** Los precios actuales (01/11/2017) presentan un descuento por la celebración del lanzamiento de su segunda versión.
 
 ### Roles de Usuario
 
-<próximamente>
+*SiteLeaf* a partir de su plan **Team** ofrece soporte para **Roles de Usuario** para establecer el nivel de control sobre el contenido del sitio de cada colaborador. Existen tres roles:  
+
+#### Admin
+
+
+
+#### Publisher
+
+#### Writer
 
 ### Demos
 
