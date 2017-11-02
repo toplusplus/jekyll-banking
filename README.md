@@ -155,4 +155,4 @@ Usando el plan **Team** se pudieran mitigar varios de los riesgos antes menciona
 
 Aparte del entrenamiento que recibirían los clientes, podría suministrárseles un **manual de uso** donde se especifíque claramente todo lo que NO debe hacerse desde *SiteLeaf* para mantener el sitio sano. 
 
-Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró ningún componente vital del sitio) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.
+Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que entiendo permite realizar pruebas post-build. La idea sería crear una prueba que corra cada vez que el gestor edite el sitio, si la prueba **pasa** (el gestor no alteró algo que no debía) entonces el sitio se actualiza, sino, el sitio permanece en el estado anterior.
