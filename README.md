@@ -48,13 +48,13 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 ### Planes
 
-*SiteLeaf* ofrece cinco planes, en el presente documento se analizan las principales características de los primeros tres planes: **Developer**, **Personal** y **Team**.  
+*SiteLeaf* ofrece cinco planes:
 
 <p align="center">
 <img src="assets/plans.png">
 </p>
 
-#### Developer \[Gratis\] <small>01-11-2017</small>
+#### Developer \[Gratis\] 
 
 * Sincronización y publicación en **repositorios públicos** de *GitHub*. 
 * Soporte únicamente de plugins **whitelisted** (aprobados por *GitHub*) de Jekyll.
@@ -70,12 +70,26 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 * Soporte de plugins basados en *Ruby gems*. 
 * 500 páginas máximo (incluyendo posts y documentos).
 * 500MB de almacenamiento.
+* Soporte técnico por correo electrónico.
 
 #### Team \[$29.40 por sitio | mensual\]
 
 * Soporte de roles de usuario (**Admin**, **Publisher**, **Writer**).
 * Páginas ilimitadas. 
 * 1GB de almacenamiento.
+
+#### Business \[$89.40 por sitio | mensual\]
+
+* Optimización de tiempo de construcción para sitios grandes. 
+* Mayor prioridad de publicación.
+* Mayor prioridad de soporte técnico.   
+
+#### Enterprise \[$299 mensual\]
+
+* Proceso de construcción hecho a la medida. 
+* Para obtener mayor información sobre este plan se debe contactar directamente con atención al cliente. 
+
+**Importante!** Los precios actuales (01/11/2017) presentan un descuento por motivo de la celebración del lanzamiento de la segunda versión de SiteLeaf.
 
 ### Roles de Usuario
 
