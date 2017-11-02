@@ -4,7 +4,7 @@ date: 01/11/2017
 at: SynergyGB
 ---
 
-# Jekyll + SiteLeaf \[no-terminado\]
+# Jekyll + SiteLeaf \[faltan demos\]
  
 [Jekyll es un generador de sitios web estáticos simple, flexible y confiable](https://jekyllrb.com/) desarrollado como una alternativa al uso de complejos e inseguros CMSs dinámicos (como *Drupal*, *WordPress*, etc). Con *Jekyll* podemos evitar el uso de bases de datos, desarrollar sitios altamente personalizables y si sumamos el uso de [GitHub Pages](https://pages.github.com/) a nuestro stack de desarollo, obtenemos además **control de versiones** y **hosting gratis**.
 
