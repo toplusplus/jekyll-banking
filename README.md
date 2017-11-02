@@ -111,7 +111,9 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * Puede cambiar la configuración del sitio.
 * Puede invitar a otros colaboradores y manejar sus roles. 
 
-*Ideal para desarrolladores y diseñadores que participan en la creación del sitio*.
+<p align="center">
+<strong>Ideal para desarrolladores y diseñadores que participan en la creación del sitio.</strong>
+</p> 
 
 #### Publisher
 
@@ -120,14 +122,19 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 * Puede eliminar archivos de datos y colecciones enteras. 
 * No puede cambiar la configuración del sitio. 
 
-*Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio*.
+<p align="center">
+<strong>Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio.</strong>
+</p>
 
 #### Writer
 
 * Solo puede manejar contenido creado por el mismo.
 * Todo el contenido generado debe ser aprobado previamente por un Publisher o Admin antes de ser publicado.
 
-*Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido*.
+<p align="center">
+<strong>Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido.
+</strong>
+</p> 
 
 Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-user-roles/)
 
