@@ -1,3 +1,9 @@
+---
+author: Tomás Batista
+date: 01/11/2017
+at: SynergyGB
+---
+
 # Jekyll + SiteLeaf \[no-terminado\]
  
 [Jekyll es un generador de sitios web estáticos simple, flexible y confiable](https://jekyllrb.com/) desarrollado como una alternativa al uso de complejos e inseguros CMSs dinámicos (como *Drupal*, *WordPress*, etc). Con *Jekyll* podemos evitar el uso de bases de datos, desarrollar sitios altamente personalizables y si sumamos el uso de [GitHub Pages](https://pages.github.com/) a nuestro stack de desarollo, obtenemos además **control de versiones** y **hosting gratis**.
@@ -89,7 +95,9 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 * Proceso de construcción hecho a la medida. 
 * Para obtener mayor información sobre este plan se debe contactar directamente con atención al cliente. 
 
-**Importante!** Los precios actuales (01/11/2017) presentan un descuento por la celebración del lanzamiento de su segunda versión.
+**Importante!** Los precios actuales **(01/11/2017)** presentan un descuento por la celebración del lanzamiento de su segunda versión.
+
+Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 
 ### Roles de Usuario
 
@@ -97,11 +105,31 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 #### Admin
 
+* Full privilegios. Puede manejar y publicar cualquier contenido.
+* Puede subir archivos de layout, archivos de datos y assets (imágenes, etc).
+* Puede eliminar cualquier tipo de archivo del proyecto (excepto el \_config.yml).
+* Puede cambiar la configuración del sitio.
+* Puede invitar a otros colaboradores y manejar sus roles. 
 
+*Ideal para desarrolladores y diseñadores que participan en la creación del sitio*.
 
 #### Publisher
 
+* Puede publicar cualquier contenido. 
+* Solo tiene acceso a archivos relacionados al contenido del sitio (No a archivos de layout).
+* Puede eliminar archivos de datos y colecciones enteras. 
+* No puede cambiar la configuración del sitio. 
+
+*Ideal para clientes, les permite manejar y publicar páginas, posts y assets mientras evita que afecten el layout del sitio*.
+
 #### Writer
+
+* Solo puede manejar contenido creado por el mismo.
+* Todo el contenido generado debe ser aprobado previamente por un Publisher o Admin antes de ser publicado.
+
+*Ideal para sitios con muchos colaboradores que solo necesitan añadir contenido*.
+
+Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-user-roles/)
 
 ### Demos
 
@@ -111,3 +139,4 @@ El editor de texto de *SiteLeaf* reconoce únicamente archivos en formato **mark
 
 <próximamente>
 
+Balance exposición riesgos.
