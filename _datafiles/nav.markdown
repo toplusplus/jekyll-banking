@@ -4,6 +4,8 @@ key: nav
 tabs:
 - title: Home
   ref: "/jekyll-banking/index.html"
+- title: About Us
+  ref: "#about"
 - title: Services
   ref: "#services"
 - title: Blog
