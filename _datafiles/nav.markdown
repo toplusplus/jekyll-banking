@@ -8,7 +8,7 @@ tabs:
   ref: "#about"
 - title: Services
   ref: "#services"
-- title: Blog
+- title: Posts
   ref: "#blog"
 - title: News
   ref: "#news"
