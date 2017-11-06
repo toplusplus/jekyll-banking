@@ -7,7 +7,7 @@ description: Nam libero tempore cum soluta nobis est eligendi optio cumque nihil
   iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
 imgs:
-- image: "/uploads/3.jpg"
+- image: "/assets/images/4.jpg"
 - image: "/assets/images/6.jpg"
 ---
 

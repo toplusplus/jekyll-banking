@@ -31,3 +31,17 @@ events-key: events
 feedback-key: feedback
 contact-key: contact
 copyright-key: copyright
+defaults:
+  -
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: service      
+      title:       
+      image: 
+      cost: 
+      stars: 
+      description:
+      class-fa: 
+      

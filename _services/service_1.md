@@ -2,7 +2,7 @@
 title: Service One
 position: 0
 layout: service
-img: "/assets/images/s1.png"
+image: "/assets/images/s1.png"
 cost: "$24.99"
 stars: 4.0
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta

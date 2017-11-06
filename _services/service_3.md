@@ -2,7 +2,7 @@
 title: Service Three
 position: 1
 layout: service
-img: "/assets/images/s3.png"
+image: "/assets/images/s3.png"
 cost: "$94.99"
 stars: 4.5
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
