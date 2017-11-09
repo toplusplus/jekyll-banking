@@ -141,7 +141,39 @@ Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-
 
 ### Demos
 
-<próximamente>
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
+</p>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/2_edit_img.gif"><img src="assets/preview_2.png"></a>
+</p>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/3_edit_nav_add.gif"><img src="assets/preview_3.png"></a>
+</p>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/4_edit_nav_text.gif"><img src="assets/preview_4.png"></a>
+</p>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/5_edit_add_collection.gif"><img src="assets/preview_5.png"></a>
+</p>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/6_edit_banner.gif"><img src="assets/preview_6.png"></a>
+</p>
 
 ## Conclusiones
 
