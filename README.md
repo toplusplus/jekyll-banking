@@ -51,7 +51,7 @@ Ver: [SiteLeaf - Metadata](https://learn.siteleaf.com/content/metadata/)
 #### Archivo de datos 'welcome.markdown' en el editor de SiteLeaf \[click en la imagen para agrandar\]
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/raw/master/assets/welcome-siteleaf.png"><img src="assets/welcome-siteleaf-preview.png"></a>
 </p>
 
 ### Planes
@@ -145,37 +145,38 @@ Ejemplos paso-por-paso de ediciones más comunes desde el dashboard de un **Publ
 **\[click en la imagen para ver el GIF\]**:  
 
 <p align="center">
- <a target="_new" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
 </p>
 
 ##
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/2_edit_img.gif"><img src="assets/preview_2.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/2_edit_img.gif"><img src="assets/preview_2.png"></a> 
+</p>
+<a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/before_2.png">Antes</a> - <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/after_2.png">Después</a>
+
+##
+
+<p align="center">
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/3_edit_nav_add.gif"><img src="assets/preview_3.png"></a>
 </p>
 
 ##
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/3_edit_nav_add.gif"><img src="assets/preview_3.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/4_edit_nav_text.gif"><img src="assets/preview_4.png"></a>
 </p>
 
 ##
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/4_edit_nav_text.gif"><img src="assets/preview_4.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/5_edit_add_collection.gif"><img src="assets/preview_5.png"></a>
 </p>
 
 ##
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/5_edit_add_collection.gif"><img src="assets/preview_5.png"></a>
-</p>
-
-##
-
-<p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/6_edit_banner.gif"><img src="assets/preview_6.png"></a>
+ <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/6_edit_banner.gif"><img src="assets/preview_6.png"></a>
 </p>
 
 ## Conclusiones
