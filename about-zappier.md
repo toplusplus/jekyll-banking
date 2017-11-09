@@ -36,9 +36,13 @@ Actualmente **(09/11/2017)**:
 
 ### Disparadores y Acciones disponibles para GitLab y SiteLeaf
 
+En la siguiente imagen se listan **TODOS** los *disparadores* y *acciones* disponibles tanto para *SiteLeaf* como para *GitLab* en *Zapier*.
+
 <p align="center">
  <img src="assets/gitlab-siteleaf.png">
 </p>
+
+Referencia: [Zapier: SiteLeaf + GitLab](https://zapier.com/zapbook/siteleaf/gitlab/)
 
  #
  
