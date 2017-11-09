@@ -1,10 +1,10 @@
 ---
 author: Tomás Batista
-date: 01/11/2017
+updated_at: 09/11/2017
 at: SynergyGB
 ---
 
-# Jekyll + SiteLeaf \[faltan demos\]
+# Jekyll + SiteLeaf 
  
 [Jekyll es un generador de sitios web estáticos simple, flexible y confiable](https://jekyllrb.com/) desarrollado como una alternativa al uso de complejos e inseguros CMSs dinámicos (como *Drupal*, *WordPress*, etc). Con *Jekyll* podemos evitar el uso de bases de datos, desarrollar sitios altamente personalizables y si sumamos el uso de [GitHub Pages](https://pages.github.com/) a nuestro stack de desarollo, obtenemos además **control de versiones** y **hosting gratis**.
 
@@ -97,7 +97,7 @@ Ver: [SiteLeaf - Metadata](https://learn.siteleaf.com/content/metadata/)
 * Proceso de construcción hecho a la medida. 
 * Para obtener mayor información sobre este plan se debe contactar directamente con atención al cliente. 
 
-**Importante!** Los precios actuales **(01/11/2017)** presentan un descuento por la celebración del lanzamiento de su segunda versión.
+**Importante!** Los precios actuales **(09/11/2017)** presentan un descuento por la celebración del lanzamiento de su segunda versión.
 
 Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 
@@ -140,6 +140,9 @@ Ver más: [SiteLeaf - Planes](https://www.siteleaf.com/plans/)
 Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-user-roles/)
 
 ### Demos
+
+Ejemplos paso-por-paso de ediciones más comunes desde el dashboard de un **Publisher**:
+\[Click en la imagen para ver el GIF\]  
 
 <p align="center">
  <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
