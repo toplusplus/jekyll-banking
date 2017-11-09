@@ -145,7 +145,7 @@ Ejemplos paso-por-paso de ediciones más comunes desde el dashboard de un **Publ
 **\[click en la imagen para ver el GIF\]**:  
 
 <p align="center">
- <a target="_blank" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
+ <a target="_new" href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
 </p>
 
 ##
