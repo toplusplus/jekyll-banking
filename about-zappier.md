@@ -18,21 +18,21 @@ Los *Zaps* son conexiones entre dos apps que automatizan tareas específicas, co
 Para crear un *Zap* es necesario enlazar un **Disparador** con una o más **Acciones**. 
 Por ejemplo, podríamos crear el *Zap* **GitLab + Twitter** siguiente: 
 
-**Disparador**: Cierre de un *issue* en un repositorio *GitLab*.
-
+**Disparador**: Cierre de un *issue* en un repositorio *GitLab*.<br>
 **Acción**: Crear un *tweet*. 
 
-El detalle es que **únicamente se pueden utilizar los *disparadores* y las *acciones* disponibles para cada app** 
-
+El detalle es que **únicamente se pueden utilizar los *disparadores* y las *acciones* disponibles para cada app**<br> 
 No se pueden crear *disparadores* ni *acciones*.
 
 ## SiteLeaf + GitLab
 
 Para lograr una sincronización entre *GitLab* y *SiteLeaf* deberíamos crear un *Zap* que, como mínimo, se **dispare** cuando un *publicador* edite un sitio en *SiteLeaf* y que la **acción** sea realizar el commit en *GitLab*.
 
-Actualmente, (09/11/2017) **no existe ningún *Zap* **GitLab + SiteLeaf** que realice esta automatización** 
+Actualmente **(09/11/2017)**: 
 
-**Y Zapier tampoco provee los disparadores y acciones necesarios que permitan la creación del *Zap* que se requiere.** 
+* No existe ningún *Zap* **GitLab + SiteLeaf** que realice esta automatización 
+
+* Zapier tampoco provee los **disparadores** y **acciones** necesarios que permitan la creación del *Zap* que se requiere. 
 
 ### Disparadores y Acciones disponibles para GitLab y SiteLeaf
 
