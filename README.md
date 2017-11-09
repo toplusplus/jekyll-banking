@@ -202,5 +202,5 @@ Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que e
 
 ##
 
-Sitio Web: [https://toplusplus.github.io/jekyll-banking/](https://toplusplus.github.io/jekyll-banking/)
+Sitio Web: [https://toplusplus.github.io/jekyll-banking/](https://toplusplus.github.io/jekyll-banking/)<br>
 Código: [https://github.com/toplusplus/jekyll-banking/tree/gh-pages](https://github.com/toplusplus/jekyll-banking/tree/gh-pages)
