@@ -141,7 +141,8 @@ Ver más: [SiteLeaf Roles de Usuario](https://www.siteleaf.com/blog/introducing-
 
 ### Demos
 
-Ejemplos paso-por-paso de ediciones más comunes desde el dashboard de un **Publisher \[click en la imagen para ver el GIF\]**:  
+Ejemplos paso-por-paso de ediciones más comunes desde el dashboard de un **Publisher**:<br> 
+**\[click en la imagen para ver el GIF\]**:  
 
 <p align="center">
  <a href="https://github.com/toplusplus/jekyll-banking/blob/master/assets/1_edit_text.gif"><img src="assets/preview_1.png"></a>
