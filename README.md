@@ -3,6 +3,7 @@ author: Tomás Batista
 updated_at: 09/11/2017
 at: SynergyGB
 site: https://toplusplus.github.io/jekyll-banking/
+code: https://github.com/toplusplus/jekyll-banking/tree/gh-pages
 ---
 
 # Jekyll + SiteLeaf 
@@ -201,4 +202,5 @@ Adicionalmente estoy investigando sobre una herramienta llamada *TravisCI* que e
 
 ##
 
-Test Site: [https://toplusplus.github.io/jekyll-banking/](https://toplusplus.github.io/jekyll-banking/)
+Sitio Web: [https://toplusplus.github.io/jekyll-banking/](https://toplusplus.github.io/jekyll-banking/)
+Código: [https://github.com/toplusplus/jekyll-banking/tree/gh-pages](https://github.com/toplusplus/jekyll-banking/tree/gh-pages)
