@@ -4,7 +4,7 @@ updated_at: 09/11/2017
 at: SynergyGB
 ---
 
-# Integración SiteLeaf - GitLab usando Zapier
+# Integración SiteLeaf + GitLab usando Zapier
 
 ## ¿Qué es Zapier?
 
@@ -30,7 +30,7 @@ Para lograr una sincronización entre *GitLab* y *SiteLeaf* deberíamos crear un
 
 Actualmente **(09/11/2017)**: 
 
-* No existe ningún *Zap* **GitLab + SiteLeaf** que realice esta automatización 
+* No existe ningún *Zap* **GitLab + SiteLeaf** que realice esta automatización.
 
 * Zapier tampoco provee los **disparadores** y **acciones** necesarios que permitan la creación del *Zap* que se requiere. 
 
