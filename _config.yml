@@ -20,6 +20,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: service
+    title: ''
+    image: ''
+    cost: ''
+    stars: ''
+    description: ''
+    class-fa: ''
 baseurl: "/jekyll-banking"
 nav-key: nav
 welcome-key: welcome

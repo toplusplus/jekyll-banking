@@ -2,7 +2,7 @@
 title: Service Two
 position: 2
 layout: service
-img: "/assets/images/s2.png"
+image: "/assets/images/s2.png"
 cost: "$44.99"
 stars: 3.0
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
